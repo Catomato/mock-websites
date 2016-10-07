@@ -1,0 +1,51 @@
+body {
+  background-color: #fff;
+  font-family: arial,sans-serif;
+  padding: 5px;
+}
+nav {
+  float: right;
+  opacity: .6;
+  font-size: 14px;
+}
+li {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  font-size: 14px;
+}
+li a {
+  text-decoration: none; color: black;
+}
+li a:hover {
+  text-decoration: underline; color: black;
+  cursor: pointer;
+  opacity: 1;
+}
+.main {
+  margin:auto;
+  height: 100px;
+  width: 50%;
+  margin-top: 190px;
+  /*border: 1px solid red; */
+}
+img {
+  text-align: center;
+  height: 90px;
+  width: 270px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea {
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  outline: #eee solid 1px;
+}
+footer {
+  background-color: #eee;
+  padding: 1px;
+}
